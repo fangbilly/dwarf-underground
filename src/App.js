@@ -2,11 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
-import MainArticle from './MainArticle';
-import SideArticle from './SideArticle';
+import MainBody from './MainBody';
 import Footer from './Footer';
-import OtherArticles from './OtherArticles';
-
 
 
 class App extends Component {
@@ -16,14 +13,7 @@ class App extends Component {
       
         <Header/>
 
-        <main className="expanded row">
-          <MainArticle/>
-
-          <SideArticle/>
-
-          <OtherArticles/>
-
-        </main>
+        <MainBody/>
 
         <Footer/>
       
